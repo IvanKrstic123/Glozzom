@@ -1,0 +1,96 @@
+.navbar { 
+    background-color: black;
+}
+.navbar .nav-link {
+    text-transform: uppercase;
+}
+.carousel-item {
+    max-height: 450px;
+}
+.red {
+    background-color: rgb(207, 16, 16);
+    color: white;
+}
+.yellow {
+    background-color: rgb(201, 166, 11);
+    color: black;
+}
+.blue {
+    background-color: rgb(16, 66, 139);
+    color: white;
+}
+.red:hover {
+    background-color: rgb(141, 8, 8);
+    color: white;
+}
+.yellow:hover {
+    background-color: rgb(141, 116, 3);
+    color: white;
+}
+.blue:hover {
+    background-color: rgb(41, 1, 150);
+    color: white;
+}
+#tree-column i {
+    font-size: 30px;
+}
+#getstarted .outer {
+    background: url('img/bg1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 210px;
+}
+#getstarted .inner-dark-overlay {
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 100%;
+    
+}
+
+#home-video .outer {
+    background: url('img/people.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 210px;
+}
+#home-video .inner-dark-overlay {
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 100%;
+    
+}
+#home-video i {
+    font-size: 50px;
+    color: red;
+    
+}
+#gallery img {
+    min-height: 250px;
+}
+
+footer {
+    background-color: black;
+}
+@media (max-width:700px){
+    .carousel-inner img {
+        height: 450px;
+    }
+    .carousel-inner h {
+        margin-bottom: 5px;
+    }
+    .carousel h{
+        font-size: 2.5rem;
+    }
+    .decrease-padding {
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width:768px){
+    #getstarted h1 {
+        font-size: 2rem;
+    }
+    #getstarted .outer { 
+        height: 300px;
+    }
+}
